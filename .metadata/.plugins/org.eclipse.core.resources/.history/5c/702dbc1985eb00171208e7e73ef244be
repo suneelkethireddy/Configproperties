@@ -1,0 +1,40 @@
+package testcase;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
+
+public class ReadDataUsingAnnotations 
+{
+	public  WebDriver driver;
+	public  WebElement element;
+	public  InputStream input;
+	public  Properties prop;
+	
+	
+	@Test(priority=1)
+	public  void connectToConfig(){
+		input=ReadDataFromConfigFile.class.getClassLoader().getResourceAsStream("testcase/config.propeties");
+		prop=new Properties();
+	}
+	@Test(priority=2)
+	public void runBrowser() throws IOException{
+		prop.load(input);
+		String browse=prop.getProperty("browser");
+		//System.out.println(browse);
+	if(browse.equalsIgnoreCase("Chrome"))
+		driver=new ChromeDriver();
+	else if(browse.equalsIgnoreCase("InternetExplorer"))
+		driver=new InternetExplorerDriver();
+		//String site=prop.getProperty("url");
+		//System.out.println(site);
+		
+	}
+
+}

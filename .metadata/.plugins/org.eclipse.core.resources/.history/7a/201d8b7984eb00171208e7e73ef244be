@@ -1,0 +1,24 @@
+package testcase;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeClass;
+
+public class ReadDataUsingAnnotations 
+{
+	public static WebDriver driver;
+	public static WebElement element;
+	public static InputStream input;
+	public static Properties prop;
+	
+	
+	@BeforeClass
+	public static void connectToConfig(){
+		input=ReadDataFromConfigFile.class.getClassLoader().getResourceAsStream("testcase/config.propeties");
+		prop=new Properties();
+	}
+
+}

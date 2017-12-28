@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32741" started-at="2017-12-28T04:39:10Z" finished-at="2017-12-28T04:39:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32741" started-at="2017-12-28T04:39:10Z" finished-at="2017-12-28T04:39:43Z">
+      <class name="testcase.ReadDataUsingAnnotations">
+        <test-method status="PASS" signature="connectToConfig()[pri:1, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="connectToConfig" duration-ms="20" started-at="2017-12-27T23:39:10Z" finished-at="2017-12-27T23:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToConfig -->
+        <test-method status="PASS" signature="runBrowser()[pri:2, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="runBrowser" duration-ms="3275" started-at="2017-12-27T23:39:10Z" finished-at="2017-12-27T23:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runBrowser -->
+        <test-method status="PASS" signature="getURL()[pri:3, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="getURL" duration-ms="8842" started-at="2017-12-27T23:39:14Z" finished-at="2017-12-27T23:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method status="PASS" signature="getLoginCredentials()[pri:4, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="getLoginCredentials" duration-ms="5263" started-at="2017-12-27T23:39:22Z" finished-at="2017-12-27T23:39:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginCredentials -->
+        <test-method status="PASS" signature="addingFunctionality()[pri:5, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="addingFunctionality" duration-ms="12283" started-at="2017-12-27T23:39:28Z" finished-at="2017-12-27T23:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingFunctionality -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testcase.ReadDataUsingAnnotations@1dd3bcd]" name="closeBrowser" is-config="true" duration-ms="3029" started-at="2017-12-27T23:39:40Z" finished-at="2017-12-27T23:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcase.ReadDataUsingAnnotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

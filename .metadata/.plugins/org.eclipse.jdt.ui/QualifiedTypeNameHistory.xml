@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebListener"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ById"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByXPath"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.internal.ProfilesIni"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.htmlunit.HtmlUnitDriver"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="testcase.interfaceTwo"/>
+<fullyQualifiedTypeName name="testcase.interfaceOne"/>
+<fullyQualifiedTypeName name="testcase.BaseClass"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.ie.InternetExplorerDriver"/>
+<fullyQualifiedTypeName name="testcase.ReadDataFromConfigFile"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.By.ByClassName"/>
+<fullyQualifiedTypeName name="org.testng.annotations.BeforeClass"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="javax.crypto.ExemptionMechanism"/>
+<fullyQualifiedTypeName name="com.gargoylesoftware.htmlunit.ElementNotFoundException"/>
+<fullyQualifiedTypeName name="org.testng.annotations.AfterClass"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>
